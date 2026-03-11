@@ -1,0 +1,54 @@
+package ar.com.unpaz.model;
+
+public class cliente {
+	private String nombre;
+	private String apellido;
+	private int dni;
+	private String direccion;
+	private String mail;
+	
+	
+	//Nombre
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+		
+	}
+	//Apellido
+	public String getApellido() {
+		return apellido;
+	}
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+		
+	}
+	
+	//DNI
+	public int getDni() {
+		return dni;
+	}
+	public void setDni(int dni) {
+		this.dni = dni;
+		
+	}
+	//Dirección
+	public String getDireccion() {
+		return direccion;
+	}
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+		
+	}
+	
+	//Mail
+	public String getMail() {
+		return mail;
+	}
+	public void setMail(String mail) {
+		this.mail = mail;
+		
+	}
+	
+}

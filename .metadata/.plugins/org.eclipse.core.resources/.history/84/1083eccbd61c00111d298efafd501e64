@@ -1,0 +1,22 @@
+package ar.com.unpaz.principal;
+
+import ar.com.unpaz.model.*;
+public class inicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		cuenta cuenta1 = new cuenta();
+		
+		cuenta1.setNumeroCuenta(1234);
+		cuenta1.setTitular("Luca");
+		cuenta1.setSaldo(200000);
+		
+		cliente cliente1 = new cliente();
+		cliente1.s
+		
+		System.out.println("numero de cuenta: " + cuenta1.getNumeroCuenta());
+		System.out.println("cuenta a nombre de: " + cuenta1.getTitular());
+		System.out.println("cuenta a nombre de: " + cuenta1.getSaldo());
+	}
+
+}

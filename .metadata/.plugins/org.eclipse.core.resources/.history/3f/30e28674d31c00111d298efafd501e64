@@ -1,0 +1,23 @@
+package ar.com.unpaz.model;
+
+public class cuenta {
+	private int numeroCuenta;
+	private String titular;
+	private double saldo;
+	
+	//numero de cuenta
+	public int getNumeroCuenta() {
+		return numeroCuenta;
+	}
+	
+	public void setNumeroCuenta(int numeroCuenta) {
+		this.numeroCuenta = numeroCuenta;
+	}
+	//Titular
+	public String getTitular(int numeroCuenta) {
+		return titular;
+	}
+	
+	public void setTitular()
+	
+}
