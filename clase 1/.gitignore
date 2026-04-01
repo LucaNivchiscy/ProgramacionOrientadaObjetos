@@ -1,0 +1,42 @@
+# Compilados y bytecode
+bin/
+*.class
+*.jar
+*.war
+*.nar
+*.zip
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+*.swp
+*.swo
+*~
+
+# IDE - VS Code
+.vscode/
+.idea/
+*.iml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.log.*
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Dependencias (si se agrega Maven/Gradle)
+target/
+build/
+.gradle/
+
+# Archivos de prueba locales
+test-reports/
+coverage/
