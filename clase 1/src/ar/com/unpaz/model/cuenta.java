@@ -1,26 +1,25 @@
 package ar.com.unpaz.model;
 
-public class cuenta {
+
+
+public class Cuenta {
+	private static int ultimoNumero = 0;
 	private int numeroCuenta;
-	private String titular;
 	private double saldo;
-	
+
+
+	public Cuenta( double saldo) {
+		this.numeroCuenta = generarNumeroCuenta();
+		this.saldo = saldo;	
+	}
 	//numero de cuenta
 	public int getNumeroCuenta() {
 		return numeroCuenta;
 	}
 	
-	public void setNumeroCuenta(int numeroCuenta) {
-		this.numeroCuenta = numeroCuenta;
-	}
-	
-	//Titular
-	public String getTitular() {
-		return titular;
-	}
-	
-	public void setTitular(String titular) {
-		this.titular = titular;
+	private int generarNumeroCuenta() {
+		ultimoNumero++;
+		return ultimoNumero;
 	}
 	
 	//Saldo
